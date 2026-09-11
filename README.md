@@ -21,7 +21,7 @@ It is NOT:
 
 Canonical project governance and status remain in `adaptia-project`.
 
-Technical stack, hosting, deployment and content architecture are not yet decided and must not be inferred from the awarded proposal.
+The current draft uses static HTML/CSS and is intended for GitHub Pages, as described below. Its implementation does not by itself establish a final hosting decision or confirm a live deployment; these choices must not be inferred from the awarded proposal.
 
 Reference: Awarded Proposal, WP0 / M0.2 - Project website, M6.
 
@@ -70,4 +70,4 @@ Derived public copies of approved assets are allowed where necessary.
 
 Canonical shared branding lives in `adaptia-project/branding/`.
 
-This website may later contain web-optimised copies such as logos, favicons or public graphics, but those copies do not become the canonical branding source.
+This website contains branding copies under `assets/branding/`. Those copies do not become the canonical branding source.
