@@ -71,3 +71,11 @@ Derived public copies of approved assets are allowed where necessary.
 Canonical shared branding lives in `adaptia-project/branding/`.
 
 This website contains branding copies under `assets/branding/`. Those copies do not become the canonical branding source.
+
+The current local draft uses the approved horizontal v2 ADAPTIA logo (approval recorded 2026-10-13). `assets/branding/adaptia-logo.png` is the 1024w raster export; `favicon.ico`, `favicon-32.png` and `apple-touch-icon.png` use its brain/conversation symbol. These are self-contained runtime copies of the canonical exports, not design masters. Refresh them from the workspace with:
+
+```sh
+python3 adaptia-project/branding/logos/scripts/generate_assets.py --sync-website adaptia-website
+```
+
+This command runs locally; website builds do not depend on it or on private repositories.
